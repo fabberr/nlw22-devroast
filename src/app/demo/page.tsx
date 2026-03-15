@@ -7,7 +7,14 @@ import {
   DiffBlockHeader,
   DiffBlockLine,
 } from "@/components/diff-block";
+import {
+  IssueCard,
+  IssueCardBadge,
+  IssueCardDescription,
+  IssueCardTitle,
+} from "@/components/issue-card";
 import { Leaderboard, LeaderboardRow } from "@/components/leaderboard";
+import { Navbar, NavbarBrand, NavbarLink } from "@/components/navbar";
 import { Badge, Button, CodeBlock, Toggle } from "@/components/primitives";
 import {
   ResultSummary,
@@ -16,16 +23,6 @@ import {
   ResultSummaryQuote,
   ResultSummaryScore,
 } from "@/components/result-summary";
-import {
-  IssueCard,
-  IssueCardBadge,
-  IssueCardDescription,
-  IssueCardTitle,
-} from "@/components/issue-card";
-
-// =============================================================================
-// PAGE COMPONENT
-// =============================================================================
 
 export default function DemoPage() {
   return (
@@ -162,6 +159,25 @@ export default function DemoPage() {
               />
             </div>
           </section>
+        </section>
+
+        {/* Navbar */}
+        <section className="space-y-4">
+          <header>
+            <h2 className="font-sans text-lg text-text-primary">Navbar</h2>
+            <p className="font-mono text-[13px] text-text-secondary">
+              {"//"} src/components/navbar/
+            </p>
+          </header>
+          <div className="max-w-3xl border border-border-primary">
+            <Navbar>
+              <NavbarBrand>DevRoast</NavbarBrand>
+              <div className="flex gap-6">
+                <NavbarLink href="#">about</NavbarLink>
+                <NavbarLink href="#">leaderboard</NavbarLink>
+              </div>
+            </Navbar>
+          </div>
         </section>
 
         {/* IssueCard */}
