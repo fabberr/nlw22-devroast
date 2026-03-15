@@ -8,10 +8,13 @@ DevRoast - code scoring platform with optional roast mode.
 - `pnpm dev` - Start Next.js dev server
 - `pnpm build` - Next.js build
 
-## Design
+## General Guidelines
 - Use semantic HTML (e.g.: `<main>`, `<section>`, `<header>`, `<nav>`)
-- Follow Pencil design
-- Use canonical Tailwind classes
+- Use Context7 MCP for searching documentation
+
+## Design
+- Follow Pencil design (use Pencil MCP)
+- Use canonical Tailwind v4 classes
 
 ## Components
 See `src/components/AGENTS.md`
