@@ -1,6 +1,6 @@
 # Project Context
 
-DevRoast - code scoring platform with optional roast mode.
+devroast (brand is all lowercase) - a code scoring tool with optional roast mode.
 
 ## Commands
 - `pnpm lint` - Linting with Biome

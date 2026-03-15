@@ -171,7 +171,7 @@ export default function DemoPage() {
           </header>
           <div className="max-w-3xl border border-border-primary">
             <Navbar>
-              <NavbarBrand>DevRoast</NavbarBrand>
+              <NavbarBrand>devroast</NavbarBrand>
               <div className="flex gap-6">
                 <NavbarLink href="#">about</NavbarLink>
                 <NavbarLink href="#">leaderboard</NavbarLink>
