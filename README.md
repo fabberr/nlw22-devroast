@@ -4,7 +4,7 @@
 
 O **devroast** é uma ferramenta que analisa a qualidade do seu código-fonte e te dá uma nota brutalmente honesta de 0 a 10.
 
-Envie qualquer trecho de código e ative o 🔥 **"roast mode"** para descobrir o quão bom (*ou ruim*) seu código realmente é. Ou navegue pela **leaderboard** para testemunhar os códigos mais bem colocados na categoria 🇫🇷 "vergonha da profissão".
+Envie qualquer trecho de código e ative o 🔥 **"roast mode"** para descobrir o quão bom (*ou ruim*) seu código realmente é. Ou navegue pela **leaderboard** para testemunhar os códigos mais bem colocados na categoria "vergonha da profissão".
 
 Projeto desenvolvido durante o evento **NLW 22 Operator** da [Rocketseat](https://rocketseat.com.br). Um app totalmente vide-codado com os melhores geradores de código legado do mercado.
 
