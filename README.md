@@ -35,19 +35,19 @@ Instale a CLI do OpenCode usando os comandos na [home do projeto](https://openco
 <details>
 <summary><strong>Pencil MCP</strong></summary>
 
-Instale o app desktop do Pencil visitando a página de [downloads](https://www.pencil.dev/downloads) do projeto.
+Instale o Pencil Desktop visitando a página de [downloads](https://www.pencil.dev/downloads) do projeto.
 
-Uma vez instalado, faça login no app e navegue para `Settings > MCP` pelo ícone de usuário, ou clicando no botão `Agents & MCP`. Na lista de integrações, habilite `OpenCode CLI`. Isso irá instalar um servidor MCP para comunicação entre o Pencil e o agente do OpenCode.
+Uma vez instalado, faça login no app e navegue para `Settings > MCP` pelo ícone de usuário, ou clicando no botão `Agents & MCP`. Na lista de integrações, habilite `OpenCode CLI`. Isso irá instalar um servidor MCP para comunicação entre o Pencil Desktop e o agente do OpenCode.
 
 Para validar a integração, rode o comando `opencode mcp list` e verifique se o MCP `pencil` está sendo listado com o status **"connected"**.
 
-⚠️ Caso o agente tenha problemas de conexão com o MCP, certifique-se que o app do Pencil esteja rodando **antes de abrir o OpenCode**. O app também deve **permanecer aberto** durante todo o tempo equanto usa o agente.
+⚠️ Caso o agente tenha problemas de conexão com o MCP, certifique-se que o Pencil Desktop esteja rodando **antes de abrir o OpenCode**. O app também deve **permanecer aberto** durante todo o tempo equanto usa o agente.
 </details>
 
 <details>
 <summary><strong>Context7 MCP</strong></summary>
 
-Siga as instruções no [GitHub](https://github.com/upstash/context7?tab=readme-ov-file#installation) do projeto para instalar o servidor MCP. Após a instalação, rode o comando `opencode mcp list` e verifique se o MCP `context7` está sendo listado com o status **"connected"**.
+Siga as instruções no [GitHub](https://github.com/upstash/context7?tab=readme-ov-file#installation) do projeto para instalar o servidor MCP do Context7. Após a instalação, rode o comando `opencode mcp list` e verifique se o MCP `context7` está sendo listado com o status **"connected"**.
 </details>
 
 ## Comandos
