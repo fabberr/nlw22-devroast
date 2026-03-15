@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-page: #11111b;
+  --color-bg-surface: #1e1e2e;
+  --color-bg-input: #181825;
+  --color-bg-elevated: #313244;
+  --color-bg-error: color-mix(
+    in srgb,
+    var(--color-accent-red) 18%,
+    var(--color-bg-surface)
+  );
+  --color-bg-success: color-mix(
+    in srgb,
+    var(--color-accent-green) 18%,
+    var(--color-bg-surface)
+  );
+  --color-bg-error-soft: color-mix(
+    in srgb,
+    var(--color-accent-red) 12%,
+    transparent
+  );
+  --color-bg-success-soft: color-mix(
+    in srgb,
+    var(--color-accent-green) 12%,
+    transparent
+  );
+  --color-bg-diff-removed: color-mix(
+    in srgb,
+    var(--color-accent-red) 6%,
+    var(--color-bg-page)
+  );
+  --color-bg-diff-added: color-mix(
+    in srgb,
+    var(--color-accent-green) 6%,
+    var(--color-bg-page)
+  );
+  --color-border-primary: #45475a;
+  --color-border-secondary: #585b70;
+  --color-border-focus: #a6e3a1;
+  --color-text-primary: #cdd6f4;
+  --color-text-secondary: #a6adc8;
+  --color-text-tertiary: #6c7086;
+  --color-text-muted: #7f849c;
+  --color-text-on-accent: #11111b;
+  --color-accent-green: #a6e3a1;
+  --color-accent-red: #f38ba8;
+  --color-accent-yellow: #f9e2af;
+  --color-accent-mauve: #cba6f7;
+  --color-accent-peach: #fab387;
+  --color-score-critical: var(--color-accent-red);
+  --color-score-warning: var(--color-accent-peach);
+  --color-score-good: var(--color-accent-green);
+  --font-sans: var(--font-geist);
+  --font-mono: var(--font-jetbrains-mono);
+  --radius-none: 0;
+  --radius-m: 16px;
+  --radius-pill: 999px;
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 40px;
+}
+
+body {
+  background: var(--color-bg-page);
+  color: var(--color-text-primary);
+  font-family:
+    var(--font-sans), system-ui, -apple-system, "Segoe UI", sans-serif;
+}
