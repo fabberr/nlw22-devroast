@@ -1,6 +1,8 @@
 # devroast
 
-O devroast é uma plataforma onde desenvolvedores enviam trechos de código para serem avaliados com uma nota de 0 a 10 — com feedback brutalmente sincero. Para quem quer algo a mais, existe o "roast mode" que transforma a crítica em sarcasmo puro.
+Cole seu código, leve uma surra na revisão.
+
+O devroast é uma ferramenta que analisa a qualidade do seu código-fonte e da uma nota brutalmente honesta de 0 a 10. Envie qualquer trecho de código, ative o "roast mode" e descubra o quão bom (ou ruim) seu código realmente é.
 
 Projeto desenvolvido durante o evento **NLW 22 Operator** da [Rocketseat](https://rocketseat.com.br).
 
