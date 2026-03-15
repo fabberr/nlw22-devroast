@@ -21,7 +21,7 @@ import {
   IssueCardBadge,
   IssueCardDescription,
   IssueCardTitle,
-} from "@/components/review-card";
+} from "@/components/issue-card";
 
 // =============================================================================
 // PAGE COMPONENT
@@ -169,7 +169,7 @@ export default function DemoPage() {
           <header>
             <h2 className="font-sans text-lg text-text-primary">IssueCard</h2>
             <p className="font-mono text-[13px] text-text-secondary">
-              {"//"} src/components/review-card/
+              {"//"} src/components/issue-card/
             </p>
           </header>
           <div className="max-w-xl">
